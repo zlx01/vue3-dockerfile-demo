@@ -1,3 +1,9 @@
+```bash
+docker build -t vue3-demo:v1 .
+
+docker run -d -p 80:80 vue3-demo:v1
+```
+
 # vue3-dockerfile-demo
 
 This template should help get you started developing with Vue 3 in Vite.
